@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class array2 {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int[] mark = new int[10];
+        for (int i=0;i<=9;i=i+1) {
+            mark[i] = scan.nextInt();
+        }
+        for (int i=0;i<=9;i=i+1) {
+            System.out.println(mark[i]);
+        }
+    }
+}
