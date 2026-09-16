@@ -1,0 +1,16 @@
+import java.util.Scanner; 
+class col {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String colour = scan.nextLine();
+        if (colour.equals("red")) {
+            System.out.println("Stop");
+        }
+        else if (colour.equals("Yellow")) {
+            System.out.println("Get ready");
+        }
+        else if (colour.equals("Green")) {
+            System.out.println("Go");
+        }
+    }
+}
